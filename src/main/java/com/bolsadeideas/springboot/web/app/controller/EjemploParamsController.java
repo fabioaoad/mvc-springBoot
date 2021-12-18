@@ -12,6 +12,11 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping("/params")
 public class EjemploParamsController {
 
+    /////////////////////
+    /////        http://localhost:8090/params/
+    ////////////////////
+
+
     @GetMapping("/")
     public String index(){
         return "params/index";
